@@ -1,0 +1,82 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Inconsolata", monospace;
+  color: $theme-color-4;
+  width: 100%;
+  background: $theme-color--default;
+  box-sizing: border-box;
+  position: relative;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-heading {
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+h2,
+h3,
+h4,
+h6 {
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.625rem;
+}
+h4 {
+  font-size: 1.875rem;
+  position: relative;
+  &::before {
+    content: "";
+    background-image: url(../../../public/image/icons/dots-bg.svg);
+    display: block;
+    height: 37px;
+    left: -16px;
+    top: -14px;
+    position: absolute;
+    width: 37px;
+  }
+}
+h5 {
+  font-size: 1.5rem;
+}
+h6 {
+  font-size: 1.125rem;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+a {
+  color: #777;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+.section {
+  padding: 7rem 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}

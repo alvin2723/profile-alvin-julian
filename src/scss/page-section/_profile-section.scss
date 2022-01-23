@@ -1,0 +1,56 @@
+// Profile Section
+.profile-wrap {
+  width: 100%;
+  height: auto;
+  position: relative;
+  & .profile-hero-block {
+    width: 100%;
+    position: relative;
+    & .profile-image img {
+      margin-top: 20px;
+      position: relative;
+      border-radius: 50%;
+      height: 180px;
+      width: 180px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: 10px solid transparent;
+      transition: all 0.3s ease-out;
+    }
+    & .profile-summary {
+      text-align: left;
+      @media #{$large-mobile} {
+        text-align: center;
+      }
+      & .profile-name {
+        &::after {
+          margin: 40px 0;
+          content: "";
+          width: 50px;
+          border-bottom: 1px solid #ccc;
+          display: block;
+          @media #{$large-mobile} {
+            display: none;
+          }
+        }
+
+        h6 {
+          color: $theme-color-2;
+        }
+      }
+
+      & .profile-intro {
+        display: block;
+        @media #{$large-mobile} {
+          display: none;
+        }
+      }
+    }
+
+    & .view-cv {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

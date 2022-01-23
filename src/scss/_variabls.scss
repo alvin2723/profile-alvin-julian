@@ -1,0 +1,24 @@
+$theme-color--default: #fdf7ff;
+$theme-color-2: #6c6ce5;
+$theme-color-3: #ffd15c;
+$theme-color-4: #4e4458;
+$theme-color-5: #8b88b1;
+
+$white: #ffffff;
+$black: #000000;
+$sm: 900px;
+$xs: 600px;
+
+$transition--default: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+$font-awesome-pro: "Font Awesome 5 Pro";
+$font-awesome-brand: "Font Awesome 5 Brands";
+
+// Responsive Variables
+$xl-device: "only screen and (min-width: 1500px) and (max-width: 1599px)";
+$laptop-device: "only screen and (min-width: 1200px) and (max-width: 1499px)";
+$desktop-device: "only screen and (min-width: 992px) and (max-width: 1199px)";
+$tablet-device: "only screen and (min-width: 768px) and (max-width: 991px)";
+$large-mobile: "only screen and (max-width: 767px)";
+$small-mobile: "only screen and (max-width: 575px)";
+$extra-small-mobile: "only screen and (max-width: 479px)";

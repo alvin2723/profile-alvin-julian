@@ -1,0 +1,57 @@
+.experience-wrap {
+  & .line-edu,
+  & .line-work {
+    position: absolute;
+    width: 1px;
+    background-color: $theme-color-2;
+    top: 65px;
+    bottom: 50px;
+  }
+  & .line-edu {
+    left: 45px;
+  }
+  & .line-work {
+    left: 42px;
+  }
+  & .experience-timeline-container {
+    padding-left: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    width: 100%;
+
+    &.education-experience::after,
+    &.work-experience::after {
+      background: #fff;
+      font-family: FontAwesome;
+      font-size: 24px;
+      color: $theme-color-2;
+      position: absolute;
+      left: 0px;
+      top: 0;
+      z-index: 1;
+    }
+    &.education-experience::after {
+      content: "\f19d";
+    }
+    &.work-experience::after {
+      content: "\f0b1";
+    }
+
+    & .content {
+      position: relative;
+      & .time {
+        color: $theme-color-5;
+        font-size: 14px;
+      }
+      & .title {
+        margin: 10px 0;
+      }
+      & .desc {
+        & ul {
+          padding-top: 10px;
+          padding-left: 30px;
+        }
+      }
+    }
+  }
+}

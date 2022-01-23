@@ -1,0 +1,11 @@
+.skills-wrapper {
+  // margin-bottom: 20px;
+  position: relative;
+  text-align: left;
+  padding: 20px;
+
+  & .skill-name {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+}

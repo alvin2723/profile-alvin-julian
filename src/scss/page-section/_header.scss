@@ -1,0 +1,14 @@
+.header-container {
+  width: 100%;
+
+  .navbar-content {
+    margin-bottom: 20px;
+    background-color: #353353 !important;
+    transition: all 300ms ease 0s;
+  }
+  .navbar-content.scrolled {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: $theme-color-2 !important;
+  }
+}
