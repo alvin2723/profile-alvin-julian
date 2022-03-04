@@ -22,7 +22,8 @@ export default function Profile() {
             <img src="image/profil.png" alt="" />
             <div className="mt-4 mb-4 w-full mx-auto text-center hover:scale-105 transition duration-400">
               <a
-                href=""
+                href="https://drive.google.com/file/d/1DBI8AMtOGV1SVjmLWqn72sSWAY3_74iB/view?usp=sharing"
+                target="_blank"
                 className="w-full text-white bg-indigo-600 py-3 px-4 rounded-xl shadow-lg text-center"
               >
                 Download CV
