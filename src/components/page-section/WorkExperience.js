@@ -9,7 +9,7 @@ const WorkExperience = ({ work }) => {
         <h6 className="title">{work.title}</h6>
         <div className="desc">
           <p>Place : {work.place}</p>
-          <p>Achievement :</p>
+          <p>Task and Achievement :</p>
           <ul className="list-disc">
             {work.achieve.map((child, key) => {
               if (key >= 0) return <li key={key}>{child}</li>;

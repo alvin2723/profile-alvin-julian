@@ -36,11 +36,20 @@ const webDevCommsult = {
 export default function Experiences() {
   return (
     <div id="experiences">
-      <div className="section-space--ptb_60">
-        <h4 className="text-left">Experience</h4>
+      <div className="section-space--pb_60">
+        <h4 className="text-left">Experiences</h4>
         <div className="experience-wrap py-8">
-          <div className="flex flex-col md:flex-row">
-            <div className="md:w-1/2 px-4">
+          <div className="flex flex-col lg:flex-row">
+            <div className="sm:w-100 lg:w-1/2 px-4 order-2 lg:order-1 mt-4 lg:mt-0">
+              <div className="rounded-xl p-8 shadow-lg bg-white overflow-hidden relative">
+                <WorkExperience work={webDevCommsult} />
+                <WorkExperience work={fullstackDevSinarmas} />
+                <WorkExperience work={webInternGolden} />
+                <WorkExperience work={labAssistant} />
+                <span className="line-work"></span>
+              </div>
+            </div>
+            <div className="sm:w-100 lg:w-1/2 px-4 order-1 lg:order-2">
               <div className="rounded-xl p-8 shadow-lg bg-white overflow-hidden relative">
                 <EduExperience
                   time="2017-2021"
@@ -53,15 +62,6 @@ export default function Experiences() {
                   place="SMP / SMA Xaverius 1 JAMBI"
                 />
                 <span className="line-edu"></span>
-              </div>
-            </div>
-            <div className="md:w-1/2 px-4">
-              <div className="rounded-xl p-8 shadow-lg bg-white overflow-hidden relative">
-                <WorkExperience work={webDevCommsult} />
-                <WorkExperience work={fullstackDevSinarmas} />
-                <WorkExperience work={webInternGolden} />
-                <WorkExperience work={labAssistant} />
-                <span className="line-work"></span>
               </div>
             </div>
           </div>
