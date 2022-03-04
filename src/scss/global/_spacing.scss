@@ -260,6 +260,20 @@
       padding-bottom: 30px;
     }
   }
+  &--ptb_40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    @media #{$tablet-device} {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    @media #{$large-mobile} {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  }
 
   &--ptb_30 {
     padding-top: 30px;

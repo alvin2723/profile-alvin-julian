@@ -12,7 +12,7 @@ export default function NavbarMenu() {
             <div className="flex-shrink-0">
               <a href="">
                 <h3 className="text-white text-3xl md:text-xl">
-                  ALVIN<span>CHEZZ</span>
+                  ALVIN<span className="text-white/60">JULIAN</span>
                 </h3>
               </a>
             </div>

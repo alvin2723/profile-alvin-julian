@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Profile() {
   return (
-    <div className="profile-wrap section-space--ptb_60">
+    <div className="profile-wrap section-space--ptb_40">
       <div className="profile-hero-block">
         <div className="flex flex-col md:flex-row justify-between">
           <div className="profile-summary w-full md:w-1/2 order-2 md:order-1">
@@ -14,7 +14,7 @@ export default function Profile() {
               <p>
                 Motivated Junior Web Developer with around 1-year of experience
                 in developing and updating websites using various web
-                programming languages.
+                programming&nbsp;languages.
               </p>
             </div>
           </div>
